@@ -31,7 +31,4 @@ public class SistemaPDV {
             System.out.println("Valor alto detectado. Solicitando aprovação...");
             supervisor.aprovarPedido(pedido);
         }
-
-        // 6. Resumo Final
-        pedido.imprimirResumo();
     }

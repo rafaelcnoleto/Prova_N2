@@ -1,10 +1,13 @@
-public class Empresa {
+class Empresa {
     private String razaoSocial;
+    private String nomeFantasia;
     private String cnpj;
     private Endereco endereco;
 
-    public Empresa(String razaoSocial, String cnpj) {
-        this.razaoSocial = razaoSocial;
+    public Empresa(String nomeFantasia, String cnpj) {
+        this.nomeFantasia = nomeFantasia;
         this.cnpj = cnpj;
     }
+
+    public String getNomeFantasia() { return nomeFantasia; }
 }
